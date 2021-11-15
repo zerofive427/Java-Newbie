@@ -19,7 +19,7 @@ Computer > Java Virtual Machine  >  Java Source code .java (Source code는 사�
 (Source code 작성 후 저장 버튼을 눌렀을 때 자동으로 .class 확장자가 만들어지는데 이것이) Java Application .class   >  
 Eclipse에서 RUN 버튼을 클릭 시 Eclipse는 Java Virtual Machine에서 실행 >  Java Virtual Machine은 확장자 class file을읽고 computer로 동작 시키게 됨
 
-데이터와 연산
+- 데이터와 연산
 
 숫자를 표현하는 source code example
 
@@ -44,7 +44,7 @@ public class Datatype {
 }
 ```
 
-숫자와 연산
+- 숫자와 연산
 
 Math. class method = 여러가지 수식 명령을 나타냄
 
@@ -64,7 +64,7 @@ public class Number {
 }
 ```
 
-문자열 다루기
+- 문자열 다루기
 
 class 생성 시 String 의 이름은 충돌 날 수 있기 때문에 뒤에 app을 붙여 StringApp으로 생성
 
