@@ -8,10 +8,10 @@ sout 작성 후  Ctrl + Space = System.out.println 단축키
 Java의 동작원리
 
 1.
-
+![1](https://user-images.githubusercontent.com/91706338/141711934-566ccd70-c833-400f-9b68-c309671fd689.PNG)
 
 2.
-
+![2](https://user-images.githubusercontent.com/91706338/141711941-9574f1ce-b50c-496a-85e4-b90a1900754c.PNG)
 
 
 Computer > Java Virtual Machine  >  Java Source code .java (Source code는 사람이 이해할 수 있고, 기계는 직접 이해할 수 없음)  
