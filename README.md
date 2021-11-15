@@ -5,7 +5,7 @@ New - Class - Name (class 이름 생성) - public static void main (클릭 시 �
 sout 작성 후  Ctrl + Space = System.out.println 단축키
 
 
-<p align="center"> **Java의 동작원리** </p>
+<p align="center"> Java의 동작원리 </p>
 
 1.
 ![1](https://user-images.githubusercontent.com/91706338/141711934-566ccd70-c833-400f-9b68-c309671fd689.PNG)
@@ -19,7 +19,7 @@ Computer > Java Virtual Machine  >  Java Source code .java (Source code는 사�
 (Source code 작성 후 저장 버튼을 눌렀을 때 자동으로 .class 확장자가 만들어지는데 이것이) Java Application .class   >  
 Eclipse에서 RUN 버튼을 클릭 시 Eclipse는 Java Virtual Machine에서 실행 >  Java Virtual Machine은 확장자 class file을읽고 computer로 동작 시키게 됨
 
-- 데이터와 연산
+<p align="center"> 데이터와 연산 </p>
 
 숫자를 표현하는 source code example
 
@@ -44,7 +44,7 @@ public class Datatype {
 }
 ```
 
-- 숫자와 연산
+<p align="center"> 숫자와 연산 </p>
 
 Math. class method = 여러가지 수식 명령을 나타냄
 
@@ -64,7 +64,7 @@ public class Number {
 }
 ```
 
-- 문자열 다루기
+<p align="center"> 문자열 다루기 </p>
 
 class 생성 시 String 의 이름은 충돌 날 수 있기 때문에 뒤에 app을 붙여 StringApp으로 생성
 
@@ -98,3 +98,23 @@ public class StringOperation {
   }
 }
 ```
+<p align="center"> 변수 </p>
+
+- 변수의 효용
+```
+public class Variable {
+  public static void main(String[] args) {
+  
+  int a = 1; // Number -> integer ... -2, -1, 0, 1, 2 ...
+  System.out.println(a);
+  
+  double b = 1.1; // real number -> double ... -2.0, -1.0, 0, 1.0, 2.0 ...
+  System.out.println(b);
+  
+  String c = "Hello Wolrd";
+  System.out.println(c);
+  }
+}
+```
+
+- 변수의 정의
