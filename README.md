@@ -1,6 +1,6 @@
 # Java-Newbie
 
-- Eclipse
+※  Eclipse
 New - Class - Name (class 이름 생성) - public static void main (클릭 시 자동생성)
 sout 작성 후  Ctrl + Space = System.out.println 단축키
 
@@ -21,7 +21,7 @@ Eclipse에서 RUN 버튼을 클릭 시 Eclipse는 Java Virtual Machine에서 실
 
 <p align="center"> 데이터와 연산 </p>
 
-숫자를 표현하는 source code example
+※  숫자를 표현하는 source code example
 
 ```
 public class Datatype {
@@ -46,7 +46,7 @@ public class Datatype {
 
 <p align="center"> 숫자와 연산 </p>
 
-Math. class method = 여러가지 수식 명령을 나타냄
+※  Math. class method = 여러가지 수식 명령을 나타냄
 
 ```
 public class Number {
@@ -66,7 +66,7 @@ public class Number {
 
 <p align="center"> 문자열 다루기 </p>
 
-class 생성 시 String 의 이름은 충돌 날 수 있기 때문에 뒤에 app을 붙여 StringApp으로 생성
+※  class 생성 시 String 의 이름은 충돌 날 수 있기 때문에 뒤에 app을 붙여 StringApp으로 생성
 
 ```
 public class StringApp {
