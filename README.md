@@ -118,3 +118,17 @@ public class Variable {
 ```
 
 - 변수의 정의
+```
+public class Letter {
+  public static void main(String[] args) {
+    String name = "leezche";
+    System.out.println("Hello, "+name+" ... "+name+" ... egoing... bye");
+    
+    double VAT = 10.0;
+    System.out.println(VAT);
+  }
+}
+```
+
+- 데이터 타입의 변환
+
