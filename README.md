@@ -131,7 +131,7 @@ public class Letter {
 ```
 
 - 데이터 타입의 변환
-
+``` 
 public class Casting {
 
 	public static void main(String[] args) {
@@ -155,3 +155,4 @@ public class Casting {
 	}	
 
 }
+```
