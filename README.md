@@ -132,3 +132,26 @@ public class Letter {
 
 - 데이터 타입의 변환
 
+public class Casting {
+
+	public static void main(String[] args) {
+	
+		double a = 1.1;
+		double b = 1; 
+		double b2 = (double) 1;
+		System.out.println(b2);
+		
+//		int c = 1.1;
+		double d = 1.1;
+		int e = (int) 1.1;
+		System.out.println(e);
+				
+// 		1 to String > Integer(정수형)을 String(문자열)로 변경
+		String f = Integer.toString(1);
+		System.out.println(f.getClass()); 
+		
+		
+		
+	}	
+
+}
