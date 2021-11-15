@@ -5,7 +5,7 @@ New - Class - Name (class 이름 생성) - public static void main (클릭 시 �
 sout 작성 후  Ctrl + Space = System.out.println 단축키
 
 
-- Java의 동작원리
+<p align="center"> // Java의 동작원리 </p>
 
 1.
 ![1](https://user-images.githubusercontent.com/91706338/141711934-566ccd70-c833-400f-9b68-c309671fd689.PNG)
