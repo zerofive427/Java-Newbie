@@ -156,3 +156,46 @@ public class Casting {
 
 }
 ```
+<p align="center"> 프로그래밍이란? </p>
+
+- 프로그래밍이란 무엇인가?
+```
+public class Program {
+  public static void main(String[] args) {
+    
+    System.out.println(1);
+    System.out.println(2);
+    System.out.println(3);
+  }
+}
+```
+
+- 프로그램 만들기 - IoT 라이브러리 설치하기
+
+
+
+- IoT 프로그램 만들기 
+```
+import org.opentutorials.iot.Elevator;
+import org.opentutorials.iot.Lighting;
+import org.opentutorials.iot.Security;
+public class OkJavaGoinHome {
+  public static void main(String[] args) {
+    String id = "JAVA APT 507";
+    
+    // Elevator call
+    Elevator myElevator = new Elevator("id");
+    myElevator.callForUp(1);
+    
+    // Security off
+    Security mySecurity = new Security("id");
+    mySecurity.off();
+    
+    // Light on
+    Lighting hallLamp = new Lighting("id / Hall Lamp");
+    hallLamp.on();
+    Lighting floorLamp = new Lighting("id / floor Lamp");
+    floorLamp.on();
+  }
+}
+```
