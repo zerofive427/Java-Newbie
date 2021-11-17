@@ -206,8 +206,9 @@ public class OkJavaGoinHome {
 ![ㄷ2](https://user-images.githubusercontent.com/91706338/142134947-9096e058-15d9-47c0-89ee-6a55cede40e5.PNG)
 
 <p align="center"> 입력과 출력 </p>
+
 - dialog
-'''
+
 import javax.swing.JOptionPane;
 
 import org.opentutorials.iot.DimmingLights;
@@ -244,4 +245,4 @@ public class OkJavaGoinHomeInput {
 	}
 
 }
-'''
+
