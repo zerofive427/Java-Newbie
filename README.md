@@ -209,6 +209,7 @@ public class OkJavaGoinHome {
 
 - dialog
 
+'''
 import javax.swing.JOptionPane;
 
 import org.opentutorials.iot.DimmingLights;
@@ -245,4 +246,5 @@ public class OkJavaGoinHomeInput {
 	}
 
 }
+'''
 
