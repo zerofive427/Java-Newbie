@@ -207,9 +207,7 @@ public class OkJavaGoinHome {
 
 <p align="center"> 입력과 출력 </p>
 
-- dialog
-
-'''
+-dialog
 
 import javax.swing.JOptionPane;
 
@@ -243,7 +241,9 @@ public class OkJavaGoinHomeInput {
 		DimmingLights moodLamp = new DimmingLights(id+" moodLamp");
 		moodLamp.setBright(Double.parseDouble(bright));
 		moodLamp.on();
+		
 	}
+
 }
-'''
+
 
