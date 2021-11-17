@@ -201,8 +201,6 @@ public class OkJavaGoinHome {
 }
 ```
 <p align="center"> 디버거 </p>
-1.
-![1](https://user-images.githubusercontent.com/91706338/142134262-ac02121b-8492-4c33-aa6d-2ce181337a65.PNG)
-2.
-![2](https://user-images.githubusercontent.com/91706338/142134268-a3317eba-a9d2-483a-9f92-b819ec240367.PNG)
 
+![ㄷ1](https://user-images.githubusercontent.com/91706338/142134343-4f1f728b-18d6-427c-b5ca-d3324114b862.PNG)
+![ㄷ2](https://user-images.githubusercontent.com/91706338/142134355-28bc1607-1501-42c3-be7a-1a04d0f67145.PNG)
