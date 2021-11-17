@@ -201,7 +201,7 @@ public class OkJavaGoinHome {
 }
 ```
 <p align="center"> 디버거 </p>
-'''
+
 ![ㄷ1](https://user-images.githubusercontent.com/91706338/142134343-4f1f728b-18d6-427c-b5ca-d3324114b862.PNG)
 ![ㄷ2](https://user-images.githubusercontent.com/91706338/142134947-9096e058-15d9-47c0-89ee-6a55cede40e5.PNG)
 
