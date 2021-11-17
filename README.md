@@ -201,7 +201,47 @@ public class OkJavaGoinHome {
 }
 ```
 <p align="center"> 디버거 </p>
-
+'''
 ![ㄷ1](https://user-images.githubusercontent.com/91706338/142134343-4f1f728b-18d6-427c-b5ca-d3324114b862.PNG)
 ![ㄷ2](https://user-images.githubusercontent.com/91706338/142134947-9096e058-15d9-47c0-89ee-6a55cede40e5.PNG)
 
+<p align="center"> 입력과 출력 </p>
+- dialog
+'''
+import javax.swing.JOptionPane;
+
+import org.opentutorials.iot.DimmingLights;
+import org.opentutorials.iot.Elevator;
+import org.opentutorials.iot.Lighting;
+import org.opentutorials.iot.Security;
+
+public class OkJavaGoinHomeInput {
+
+	public static void main(String[] args) {
+
+		String id = JOptionPane.showInputDialog("Enter a ID");
+		String bright = JOptionPane.showInputDialog("Enter a Bright level");
+		
+		// Elevator call
+		Elevator myElevator = new Elevator(id);
+		myElevator.callForUp(1);
+		
+		// Security off
+		Security mySecurity = new Security(id);
+		mySecurity.off();
+		
+		// Light on
+		Lighting hallLamp = new Lighting(id+" / Hall Lamp");
+		hallLamp.on();
+
+		Lighting floorLamp = new Lighting(id+" / floor Lamp");
+		floorLamp.on();
+		
+		DimmingLights moodLamp = new DimmingLights(id+" moodLamp");
+		moodLamp.setBright(Double.parseDouble(bright));
+		moodLamp.on();
+		
+	}
+
+}
+'''
